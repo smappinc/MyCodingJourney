@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Football Hobby</title>
+</head>
+<body>
+
+  <h1>My Football Hobby</h1>
+
+  <p>Football is my favorite hobby. I love playing it, watching it, and talking about it. I've been playing football since I was a kid.</p>
+
+  <p>I love playing football because it's a great way to get exercise and have fun.</p>
+
+  <p>I also love watching football games. My favorite team is the Arsenal, aka The Gunners.</p>
+
+  <p>Football is more than just a hobby to me. It's a passion. I love everything about the beautiful game.</p>
+
+  <h2>My favorite football players</h2>
+
+  <ul>
+    <li>Lionel Messi [The GOAT]</li>
+    <li>Cristiano Ronaldo [The Camel]</li>
+    <li>Jamal Musiala</li>
+  </ul>
+
+  <h2>My favorite football teams</h2>
+
+  <table border="2" style="border-style:dashed; border-color:black;">
+    <tr>
+      <th>Team</th>
+      <th>League</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Arsenal Football Club</td>
+      <td>English Premier League</td>
+      <td>London, UK</td>
+    </tr>
+    <tr>
+      <td>FC Barcelona</td>
+      <td>La Liga</td>
+      <td>Barcelona, Spain</td>
+    </tr>
+  </table>
+
+  <h2>Football links</h2>
+
+  <ul>
+    <li><a href="https://www.fifa.com/">FIFA</a></li>
+    <li><a href="https://www.uefa.com/">UEFA</a></li>
+    <li><a href="https://www.premierleague.com/">Premier League</a></li>
+    <li><a href="https://www.laliga.com/">La Liga</a></li>
+    <li><a href="https://www.bundesliga.com/">Bundesliga</a></li>
+  </ul>
+
+</body>
+</html>

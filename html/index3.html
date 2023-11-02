@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Football My Favorite Hobby</h1>
+    <p>Football is my favorite hobby</p>
+    <p>Here are my three favorite teams:</p>
+    <ul>
+        <li>Arsenal</li>
+        <li>Barcelona</li>
+        <li>Bayern Munchen</li>
+    </ul>
+    <p>Here are my two favorite players:</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Goals</th>
+            <th>Assists</th>
+        </tr>
+        <tr>
+            <td>Lionel Messi [the goat] 🐐</td>
+            <td>Inter Miami</td>
+            <td>1024</td>
+            <td>470</td>
+        </tr>
+        <tr>
+            <td>Cristiano Ronaldo [the camel] 🐪</td>
+            <td>Al Nassr</td>
+            <td>945</td>
+            <td>301</td>
+        </tr>
+    </table>
+
+    <p>Change the background color of the page:</p>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('blue')">Blue</button>
+
+    <p>Enter your name and email:</p>
+    <form id="myForm" onsubmit="return validateForm()">
+        Name: <input type="text" name="name"><br>
+        Email: <input type="email" name="email"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

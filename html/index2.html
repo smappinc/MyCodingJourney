@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>My Favorite Football Teams and Players</h1>
+
+    <h2>Favorite Teams</h2>
+    <ul id="teamsList">
+        <li>Arsenal</li>
+        <li>Barcelona</li>
+        <li>Bayern Munich</li>
+    </ul>
+
+    <h2>Favorite Players</h2>
+    <ul id="playersList">
+        <li>Lionel Messi</li>
+        <li>Cristiano Ronaldo</li>
+    </ul>
+
+    <h2>Player Stats</h2>
+    <form id="playerStatsForm">
+        <label for="playerSelect">Select a player:</label>
+        <select id="playerSelect">
+            <option value="messi">Lionel Messi</option>
+            <option value="ronaldo">Cristiano Ronaldo</option>
+        </select>
+        <br>
+        <label for="goals">Goals:</label>
+        <input type="number" id="goals" min="0" value="0">
+        <br>
+        <label for="assists">Assists:</label>
+        <input type="number" id="assists" min="0" value="0">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="playerStats">
+        <h3>Player Stats:</h3>
+        <p id="goalsDisplay">Goals: 0</p>
+        <p id="assistsDisplay">Assists: 0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
