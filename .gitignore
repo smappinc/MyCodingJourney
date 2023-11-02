@@ -24,7 +24,7 @@ pom.xml.asc
 /coverage
 
 # production
-/build
+test/build
 
 # misc
 .DS_Store
@@ -36,3 +36,6 @@ pom.xml.asc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+Sample_React\test\build
+Sample_React\test\node_modules
