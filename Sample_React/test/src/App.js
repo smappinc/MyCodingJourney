@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import { useState } from 'react';
 
 function Count(){
@@ -36,6 +37,8 @@ function Count(){
           <br></br>
           <button onClick={handleReset}>Reset Goals</button>
         </header>
+
+        <h1>HIII</h1>
 
         
         </div>
